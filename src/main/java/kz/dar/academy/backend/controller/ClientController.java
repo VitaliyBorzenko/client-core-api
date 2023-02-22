@@ -33,8 +33,8 @@ public class ClientController {
     }
 
     @GetMapping("/{clientId}")
-    public ClientModel getClientById(@PathVariable String clietnId) {
-        return clientServiсe.getClietnById(clietnId);
+    public ClientModel getClientById(@PathVariable String clientId) {
+        return clientServiсe.getClientById(clientId);
     }
 
     @PutMapping("/clientId")

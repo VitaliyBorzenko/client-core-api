@@ -6,7 +6,7 @@ public interface ClientService {
 
     void createClient(ClientModel clientModel);
     List<ClientModel> getAllClients();
-    ClientModel getClietnById(String postId);
+    ClientModel getClientById(String clientId);
     void updateClientById(String clientId, ClientModel clientModel);
     void deleteClientById(String clientId);
 }
